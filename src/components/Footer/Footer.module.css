@@ -1,0 +1,12 @@
+.footer {
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.adress {
+    padding: 10px;
+}
+
+.copy {
+    padding: 10px;
+}

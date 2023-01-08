@@ -1,0 +1,15 @@
+.courseList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.courseItem {
+    margin: 20px;
+    background-color: var(--accent-color);
+    width: 200px;
+    height: 300px;
+}
