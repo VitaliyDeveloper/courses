@@ -65,7 +65,7 @@ const Navigation = () => {
           </a>
         </li>
       </ul>
-      <button className={styles.btnLogin}>Login</button>
+      <button className={styles.btnLogin}>Вход</button>
     </nav>
   );
 };

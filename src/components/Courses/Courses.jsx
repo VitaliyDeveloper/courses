@@ -6,7 +6,7 @@ const Courses = () => {
     <ul className={styles.courseList}>
       <li className={styles.courseItem}>
         <img src={poster} alt="poster" />
-        <h3>Name service</h3>
+        <h3>Визуал</h3>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui,
           impedit?
@@ -14,7 +14,7 @@ const Courses = () => {
       </li>
       <li className={styles.courseItem}>
         <img src={poster} alt="poster" />
-        <h3>Name service</h3>
+        <h3>Фотосессия</h3>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui,
           impedit?
@@ -22,7 +22,7 @@ const Courses = () => {
       </li>
       <li className={styles.courseItem}>
         <img src={poster} alt="poster" />
-        <h3>Name service</h3>
+        <h3>Консультации</h3>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui,
           impedit?
