@@ -26,6 +26,11 @@ const Navigation = () => {
             Мои слуги
           </NavLink>
         </li>
+        <li className={styles.itemLink}>
+          <NavLink className={styles.link} to="/gallery">
+            Галерея
+          </NavLink>
+        </li>
       </ul>
       <ul className={styles.socialList}>
         <li className={styles.socialItem}>
