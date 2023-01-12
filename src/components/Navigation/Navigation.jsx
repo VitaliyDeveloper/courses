@@ -29,7 +29,10 @@ const Navigation = () => {
       </ul>
       <ul className={styles.socialList}>
         <li className={styles.socialItem}>
-          <a className={styles.linkSocial} href="#">
+          <a
+            className={styles.linkSocial}
+            href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fyandex.ru%2Fimages%2F&psig=AOvVaw06g04edUYvNKR0-dYeqpZs&ust=1673603680617000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKiO7pniwfwCFQAAAAAdAAAAABAE"
+          >
             <img
               className={styles.socialIcon}
               src={insta}
@@ -41,7 +44,10 @@ const Navigation = () => {
           </a>
         </li>
         <li className={styles.socialItem}>
-          <a className={styles.linkSocial} href="#">
+          <a
+            className={styles.linkSocial}
+            href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fyandex.ru%2Fimages%2F&psig=AOvVaw06g04edUYvNKR0-dYeqpZs&ust=1673603680617000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKiO7pniwfwCFQAAAAAdAAAAABAE"
+          >
             <img
               className={styles.socialIcon}
               src={whatsapp}
@@ -53,7 +59,10 @@ const Navigation = () => {
           </a>
         </li>
         <li className={styles.socialItem}>
-          <a className={styles.linkSocial} href="#">
+          <a
+            className={styles.linkSocial}
+            href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fyandex.ru%2Fimages%2F&psig=AOvVaw06g04edUYvNKR0-dYeqpZs&ust=1673603680617000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKiO7pniwfwCFQAAAAAdAAAAABAE"
+          >
             <img
               className={styles.socialIcon}
               src={telegram}
