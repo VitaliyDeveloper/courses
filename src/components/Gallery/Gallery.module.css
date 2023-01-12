@@ -1,0 +1,16 @@
+.galleryContainer {
+    width: 100%;
+}
+
+.galleryList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.galleryItem {
+    background-color: #fff;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
