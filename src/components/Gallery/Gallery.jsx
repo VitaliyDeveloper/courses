@@ -6,43 +6,85 @@ const Gallery = () => {
     <div className={style.galleryContainer}>
       <ul className={style.galleryList}>
         <li className={style.galleryItem}>
-          <img src={photo} alt="" style={{ width: 150 }} />
-          <p>
+          <img
+            className={style.galleryImg}
+            src={photo}
+            alt=""
+            style={{
+              width: 150,
+            }}
+          />
+          <p className={style.galleryText}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Doloremque, natus.
           </p>
         </li>
         <li className={style.galleryItem}>
-          <img src={photo} alt="" style={{ width: 150 }} />
-          <p>
+          <img
+            className={style.galleryImg}
+            src={photo}
+            alt=""
+            style={{
+              width: 150,
+            }}
+          />
+          <p className={style.galleryText}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Doloremque, natus.
           </p>
         </li>
         <li className={style.galleryItem}>
-          <img src={photo} alt="" style={{ width: 150 }} />
-          <p>
+          <img
+            className={style.galleryImg}
+            src={photo}
+            alt=""
+            style={{
+              width: 150,
+            }}
+          />
+          <p className={style.galleryText}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Doloremque, natus.
           </p>
         </li>
         <li className={style.galleryItem}>
-          <img src={photo} alt="" style={{ width: 150 }} />
-          <p>
+          <img
+            className={style.galleryImg}
+            src={photo}
+            alt=""
+            style={{
+              width: 150,
+            }}
+          />
+          <p className={style.galleryText}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Doloremque, natus.
           </p>
         </li>
         <li className={style.galleryItem}>
-          <img src={photo} alt="" style={{ width: 150 }} />
-          <p>
+          <img
+            className={style.galleryImg}
+            src={photo}
+            alt=""
+            style={{
+              width: 150,
+            }}
+          />
+          <p className={style.galleryText}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Doloremque, natus.
           </p>
         </li>
         <li className={style.galleryItem}>
-          <img src={photo} alt="" style={{ width: 150 }} />
-          <p>
+          <img
+            className={style.galleryImg}
+            src={photo}
+            alt=""
+            style={{
+              width: 150,
+            }}
+          />
+          <p className={style.galleryText}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Doloremque, natus.
           </p>

@@ -6,11 +6,19 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .galleryItem {
     background-color: #fff;
     width: 150px;
     height: 200px;
-    margin: 10px;
+    margin: 20px;
+}
+
+.galleryImg {}
+
+.galleryText {
+    text-align: center;
 }
