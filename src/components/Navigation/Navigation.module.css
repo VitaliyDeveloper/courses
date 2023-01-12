@@ -28,7 +28,6 @@
 
 .itemLink:hover {
     background-color: var(--accent-color);
-
 }
 
 .itemLink:hover .link {
