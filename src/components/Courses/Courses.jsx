@@ -1,7 +1,7 @@
 import poster from '../../img/fotoapparat.jpg';
 
 //STYLES////////////////////////////
-import { CoursesContainer, CoursesList, CoursesItem } from './Courses.styled';
+import { CoursesContainer } from './Courses.styled';
 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
