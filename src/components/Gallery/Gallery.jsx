@@ -1,96 +1,97 @@
-import style from './Gallery.module.css';
 import photo from '../../img/photo.jpg';
+
+//STYLES/////////////////////////////
+import {
+  GalleryContainer,
+  GalleryList,
+  GalleryItem,
+  GalleryText,
+} from './Gallery.styled';
 
 const Gallery = () => {
   return (
-    <div className={style.galleryContainer}>
-      <ul className={style.galleryList}>
-        <li className={style.galleryItem}>
+    <GalleryContainer>
+      <GalleryList>
+        <GalleryItem>
           <img
-            className={style.galleryImg}
             src={photo}
             alt=""
             style={{
               width: 150,
             }}
           />
-          <p className={style.galleryText}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          <GalleryText>
+            Lorem ipsum, dolor sit amet consectetur adipisicing eGalleryItemt.
             Doloremque, natus.
-          </p>
-        </li>
-        <li className={style.galleryItem}>
+          </GalleryText>
+        </GalleryItem>
+        <GalleryItem>
           <img
-            className={style.galleryImg}
             src={photo}
             alt=""
             style={{
               width: 150,
             }}
           />
-          <p className={style.galleryText}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          <GalleryText>
+            Lorem ipsum, dolor sit amet consectetur adipisicing eGalleryItemt.
             Doloremque, natus.
-          </p>
-        </li>
-        <li className={style.galleryItem}>
+          </GalleryText>
+        </GalleryItem>
+        <GalleryItem>
           <img
-            className={style.galleryImg}
             src={photo}
             alt=""
             style={{
               width: 150,
             }}
           />
-          <p className={style.galleryText}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          <GalleryText>
+            Lorem ipsum, dolor sit amet consectetur adipisicing eGalleryItemt.
             Doloremque, natus.
-          </p>
-        </li>
-        <li className={style.galleryItem}>
+          </GalleryText>
+        </GalleryItem>
+        <GalleryItem>
           <img
-            className={style.galleryImg}
             src={photo}
             alt=""
             style={{
               width: 150,
             }}
           />
-          <p className={style.galleryText}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          <GalleryText>
+            Lorem ipsum, dolor sit amet consectetur adipisicing eGalleryItemt.
             Doloremque, natus.
-          </p>
-        </li>
-        <li className={style.galleryItem}>
+          </GalleryText>
+        </GalleryItem>
+        <GalleryItem>
           <img
-            className={style.galleryImg}
             src={photo}
             alt=""
             style={{
               width: 150,
             }}
           />
-          <p className={style.galleryText}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          <GalleryText>
+            Lorem ipsum, dolor sit amet consectetur adipisicing eGalleryItemt.
             Doloremque, natus.
-          </p>
-        </li>
-        <li className={style.galleryItem}>
+          </GalleryText>
+        </GalleryItem>
+        <GalleryItem>
           <img
-            className={style.galleryImg}
             src={photo}
             alt=""
             style={{
               width: 150,
             }}
           />
-          <p className={style.galleryText}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          <GalleryText>
+            Lorem ipsum, dolor sit amet consectetur adipisicing eGalleryItemt.
             Doloremque, natus.
-          </p>
-        </li>
-      </ul>
-    </div>
+          </GalleryText>
+        </GalleryItem>
+      </GalleryList>
+    </GalleryContainer>
   );
 };
 

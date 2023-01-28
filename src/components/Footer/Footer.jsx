@@ -1,11 +1,11 @@
-import styles from '../Footer/Footer.module.css';
+import { FooterContainer, Address, Copy } from './Footer.styled';
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      <address className={styles.adress}>Almaty, Kazakhstan</address>
-      <p className={styles.copy}>&copy; copyright 2023</p>
-    </footer>
+    <FooterContainer>
+      <Address>Almaty, Kazakhstan</Address>
+      <Copy>&copy; copyright 2023</Copy>
+    </FooterContainer>
   );
 };
 

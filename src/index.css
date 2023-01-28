@@ -2,7 +2,10 @@
 /* bring in normalize.css styles */
 
 :root {
-  --accent-color: #62c0d5;
+  --first-color-dark: #072c51;
+  --accent-color: #1976d2;
+  --second-color: #114F8E;
+  --some-white-color: #fff;
 }
 
 * {
@@ -20,7 +23,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
@@ -32,4 +35,4 @@ svg {
   width: 100%;
   height: 130%;
   z-index: -1;
-}
+} */

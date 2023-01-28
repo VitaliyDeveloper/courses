@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Navigation from 'components/Navigation/Navigation';
 import Footer from 'components/Footer/Footer';
-// import styles from '../Layout/Layout.module.css';
+import { Main } from './Layout.styled';
 
 const Layout = () => {
   return (
@@ -9,13 +9,9 @@ const Layout = () => {
       <header>
         <Navigation />
       </header>
-      <main
-        style={{
-          minHeight: '100vh',
-        }}
-      >
+      <Main>
         <Outlet />
-      </main>
+      </Main>
       <footer>
         <Footer />
       </footer>

@@ -1,11 +1,17 @@
-import styles from '../AboutMe/AboutMe.module.css';
+//STYLES///////////////////////////////////
+import {
+  AboutMeContainer,
+  PhotoContainer,
+  AboutMeTitle,
+  AboutMeText,
+} from './AboutMe.styled';
 
 const AboutMe = () => {
   return (
-    <div className={styles.aboutMeContainer}>
-      <div className={styles.photo}></div>
-      <article className={styles.aboutMeText}>
-        <h2 className={styles.aboutMeTitle}>About me</h2>
+    <AboutMeContainer>
+      <PhotoContainer></PhotoContainer>
+      <AboutMeText>
+        <AboutMeTitle>About me</AboutMeTitle>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora totam,
         tenetur molestias magnam voluptatem consequatur aperiam fuga similique
         dolores aliquid dolor blanditiis maxime facilis labore voluptatibus
@@ -24,8 +30,8 @@ const AboutMe = () => {
         assumenda dignissimos magni tenetur laborum doloribus enim similique
         modi natus quibusdam impedit alias ipsa aut quo eum magnam, sequi
         asperiores sed, eius necessitatibus.
-      </article>
-    </div>
+      </AboutMeText>
+    </AboutMeContainer>
   );
 };
 
